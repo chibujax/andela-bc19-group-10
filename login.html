@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome To Andela</title>
+        <!--Pulling Awesome Font -->
+        <link href="main.css" rel="stylesheet">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="main.css" rel="stylesheet">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="col-sm-5">
+           <div class="row row1">
+            <div class="col-sm-5">
+                <a href="index.html"> <img alt="index" class="logo" src="images/logo.png" class="img img-responsive thumbnail"></a>
+            </div><br><br><br><br><br><br>
+        <div class="container-fluid">
+            <form class="form-horizontal" action='' method="POST">
+              <fieldset>
+                <div id="legend">
+                  <legend class="">Register</legend>
+                </div>
+                <div class="control-group">
+                  <!-- Username -->
+                  <label class="control-label"  for="username">Staff ID</label>
+                  <div class="controls">
+                    <input type="text" id="staff_ID" name="Staff ID" placeholder="" class="input-xlarge">
+                    <p class="help-block">Provide your Staff ID number</p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <!-- Username -->
+                  <label class="control-label"  for="username">Username</label>
+                  <div class="controls">
+                    <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+                    <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+                  </div>
+                </div>
+             
+                <div class="control-group">
+                  <!-- E-mail -->
+                  <label class="control-label" for="email">E-mail</label>
+                  <div class="controls">
+                    <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+                    <p class="help-block">Please provide your E-mail</p>
+                  </div>
+                </div>
+             
+                <div class="control-group">
+                  <!-- Password-->
+                  <label class="control-label" for="password">Password</label>
+                  <div class="controls">
+                    <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+                    <p class="help-block">Password should be at least 4 characters</p>
+                  </div>
+                </div>
+             
+                <div class="control-group">
+                  <!-- Password -->
+                  <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+                  <div class="controls">
+                    <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+                    <p class="help-block">Please confirm password</p>
+                  </div>
+                </div>
+             
+                <div class="control-group">
+                  <!-- Button -->
+                  <div class="controls">
+                    <a href="login.html" class="btn btn-primary btn-md">Register<i class="fa fa-sign-in"></i></a>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    </body>
+</html>
